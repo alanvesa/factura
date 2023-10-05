@@ -1,0 +1,233 @@
+body {
+background-color: aliceblue; 
+width: 90%;
+margin-left: 20%;
+margin-top: 1%;
+font-family: tahoma;   
+font-size: 12pt;
+}
+section {
+    display: flex;
+}
+
+.cont {
+    padding-left: 5%;
+    width: 60%;
+    background-color: white;
+}
+
+.linea {
+    width: 8%;
+    height: auto;
+    background: linear-gradient(#04bcac 35%, #30ccc3,#7cd49c);
+}
+
+.imagen{
+    margin-top: 0%;
+}
+
+.factura{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.imagen1{
+    margin-left: 15%;
+
+}
+
+h2 {
+    color: #04bcac;
+    font-size: 400%;
+    margin-top: 15%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.bloque{
+    align-items: center;
+}
+
+strong{
+    color: #04bcac;
+}
+
+h4{
+    color: #04bcac;
+}
+
+.emilia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cuenta{
+    margin-top: 5%;
+}
+
+.emili h3{
+    font-size: 250%;
+    color: #04bcac;
+    margin-bottom: 0;
+}
+
+table{
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 120%;
+}
+
+thead{
+    color: white;
+}
+
+table td,
+th{
+    text-align: center;
+}
+
+table th{
+    background-color: #04bcac;
+    height: 60px;
+}
+
+.tab1{
+    height: 50px;
+}
+.tab2{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.tab3{
+    height: 50px;
+    background-color: rgb(224, 222, 222);
+}
+
+.gracias{
+    color: #04bcac;
+    font-size: 300%;
+    margin-left: 25%;
+}
+.cuenta1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10%;
+}
+
+.tab5{
+    border-bottom: 4px solid #cfcdcd;
+    height: 50px;
+}
+
+hr{
+    width: 90%;
+    height: 4px;
+    background-color: #04bcac;
+    border: none;
+    margin-left: 0%
+}
+
+.sub{
+    padding: 1%;
+
+}
+
+.imp{
+    padding: 1%;
+}
+
+.tot{
+    padding: 1%;
+}
+.final{
+    text-align: center;
+}
+@media(max-width: 1400px){
+    .gracias{
+               font-size: 280%;
+        margin-left: 15%;
+    }
+}
+@media(max-width: 1200px){
+    body {
+               margin-right: 10%;
+        margin-left: 10%;
+           }
+           .imagen{
+            width: 60%;
+        }
+        h2 {
+            
+            font-size: 350%;
+        }
+        .gracias{
+            
+     margin-left: 10%;
+ }
+ .emili h3{
+    font-size: 230%;
+ }
+ .cont {
+    padding-left: 5%;
+    width: 80%;}
+}
+@media(max-width: 1000px){
+    body {
+        width: 100%;
+        margin-right: 5%;
+ margin-left: 5%;
+    }
+    h2{
+        font-size: 300%;
+    }
+    .emili h3{
+        font-size: 200%;
+
+    }
+    .gracias{
+        font-size: 200%;
+    }
+    .cont {
+        padding-left: 5%;
+        width: 80%;}
+}
+@media(max-width: 800px){
+
+
+    .factura{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    h2{
+     text-align: center;
+    }
+    .imagen{
+        width: 60%;
+        text-align: center;
+    }
+    .emilia{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cuenta1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .gracias{
+        text-align: center;
+    }
+    .cont {
+        padding-left: 5%;
+        width: 80%;}
+
+}
+@media(max-width: 400px){
+    body {
+           font-size: 11pt;
+           width: 100%;
+           margin-left: 1%;
+}
+}
